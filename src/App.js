@@ -1,15 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
-import Numeros from './components/Numeros'
+import './styles/App.css';
+import TodoBox from './components/TodoBox'
+import TodoList from './components/TodoList'
 import { useState } from 'react';
 
 function App() {
-  const [result, setReult] = useState();
+  
   
 
   return (
     <div className="App">
-      <Numeros /> 
+      <TodoBox /> 
       
     </div>
   );
