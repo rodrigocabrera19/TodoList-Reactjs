@@ -1,0 +1,7 @@
+.todoList-items{
+    font-size: 2em;
+    list-style-type: none;
+    text-align: start;
+    background-color: red;
+    color: rgb(255, 255, 254);
+}
